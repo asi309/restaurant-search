@@ -1,7 +1,14 @@
 import React from 'react';
 
-export default function Dashboard () {
+import SearchBar from '../../components/SearchBar';
+
+import './index.css';
+
+export default function Dashboard() {
   return (
-    <h1>Restaurant List</h1>
+    <>
+      <SearchBar />
+      <h1>Restaurant List</h1>
+    </>
   );
 }
